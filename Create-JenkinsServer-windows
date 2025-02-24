@@ -11,8 +11,8 @@ pipeline {
             steps {
                 script {
                     dir('jenkins-server') {
-                        sh "terraform init"
-                        sh "terraform apply -auto-approve"
+                        bat "terraform init"
+                        bat "terraform apply -auto-approve"
                     }
                 }
             }
