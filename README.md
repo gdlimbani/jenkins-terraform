@@ -1,3 +1,3 @@
 # jenkins-pipeline
 
-Code for Kubernetes Deployment of a Nginx web server through Jenkins
+Code for deploying the Jenkins Server on AWS through Jenkins pipeline.
